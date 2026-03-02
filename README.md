@@ -11,7 +11,7 @@ Use this repository to:
 
 | Repository | Description |
 |---|---|
-| [nvcf-nvca-operator](https://github.com/NVIDIA/nvcf-nvca-operator) | NVIDIA Cluster Agent Operator |
+| [nvcf-nvca-operator](https://github.com/NVIDIA/nvcf-nvca-operator) | NVCF Cluster Agent Operator |
 
 > More repositories will be listed here as they are open sourced.
 
