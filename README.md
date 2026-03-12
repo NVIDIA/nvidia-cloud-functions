@@ -11,9 +11,9 @@ Use this repository to:
 
 | Repository | Description |
 |---|---|
-| [nvcf-go](https://gitlab-master.nvidia.com/egx/intelligent-infra/nvcf-go) | NVCF Common |
-| [byoo-otel-collector](https://gitlab-master.nvidia.com/nvcf/monitoring/byoo-otel-collector) | BYO Observability OpenTelemetry Collector |
-| [nvcf-otelconfig](https://gitlab-master.nvidia.com/nvcf/monitoring/nvcf-otelconfig) | NVCF OpenTelemetry Configuration Library |
+| [nvcf-go](https://github.com/NVIDIA/nvcf-go) | NVCF Common |
+| [byoo-otel-collector](https://github.com/NVIDIA/nvcf-byoo-otel-collector) | BYO Observability OpenTelemetry Collector |
+| [nvcf-otelconfig](https://github.com/NVIDIA/nvcf-otelconfig) | NVCF OpenTelemetry Configuration Library |
 
 > More repositories will be listed here as they are open sourced.
 
