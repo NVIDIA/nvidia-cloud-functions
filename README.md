@@ -9,13 +9,18 @@ Use this repository to:
 
 ## Repositories
 
-| Repository | Description |
-|---|---|
-| [nvcf-go](https://github.com/NVIDIA/nvcf-go) | NVCF Common |
-| [byoo-otel-collector](https://github.com/NVIDIA/nvcf-byoo-otel-collector) | BYO Observability OpenTelemetry Collector |
-| [nvcf-otelconfig](https://github.com/NVIDIA/nvcf-otelconfig) | NVCF OpenTelemetry Configuration Library |
-
-> More repositories will be listed here as they are open sourced.
+| Repository | Description | Status |
+|---|---|---|
+| [nvcf-go](https://github.com/NVIDIA/nvcf-go) | NVCF Go client library | ✅ Live |
+| [nvcf-byoo-otel-collector](https://github.com/NVIDIA/nvcf-byoo-otel-collector) | BYO Observability OpenTelemetry Collector | ✅ Live |
+| [nvcf-otelconfig](https://github.com/NVIDIA/nvcf-otelconfig) | NVCF OpenTelemetry Configuration Library | ✅ Live |
+| nvcf-icms-translate | Image/container manifest translation service | March 2026 |
+| nvcf-image-credential-helper | Registry credential injection for container pulls | March 2026 |
+| nvcf-nats-auth-callout-service | NATS authentication callout service | March 2026 |
+| nvcf-container-cache | Container image caching layer | March 2026 |
+| nvcf-dns-cache | DNS caching service | March 2026 |
+| *(name TBD)* | — | April 2026 |
+| *(multiple repos)* | — | Q2 2026 |
 
 ## Reporting Issues
 
