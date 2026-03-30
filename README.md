@@ -40,14 +40,14 @@ NVCF turns fragmented GPU resources into a single, scalable API for AI inference
 | [nvcf-go](https://github.com/NVIDIA/nvcf-go) | NVCF Go client library | ✅ Live |
 | [nvcf-byoo-otel-collector](https://github.com/NVIDIA/nvcf-byoo-otel-collector) | BYO Observability OpenTelemetry Collector | ✅ Live |
 | [nvcf-otelconfig](https://github.com/NVIDIA/nvcf-otelconfig) | NVCF OpenTelemetry Configuration Library | ✅ Live |
-| nvcf-icms-translate | Image/container manifest translation service | March 2026 |
-| nvcf-image-credential-helper | Registry credential injection for container pulls | March 2026 |
-| nvcf-nats-auth-callout-service | NATS authentication callout service | March 2026 |
-| nvcf-container-cache | Container image caching layer | March 2026 |
-| nvcf-dns-cache | DNS caching service | March 2026 |
-| nvcf-nvca | NVIDIA cluster agent - handles workload scheduling and deployment, and GPU resource lifecycle | March 2026 |
-| nvcf-invocation-service | Service that handles NVCF function invocations, routing requests to workers and managing response streaming via pull-based system using NATS | March 2026 |
-| nvcf-function-autoscaler | Autoscaling service that monitors function invocation and usage patterns and horizontally scales NVCF function instance counts across clusters | March 2026 |
+| nvcf-icms-translate | Image/container manifest translation service | April 2026 |
+| nvcf-image-credential-helper | Registry credential injection for container pulls | April 2026 |
+| nvcf-nats-auth-callout-service | NATS authentication callout service | April 2026 |
+| nvcf-container-cache | Container image caching layer | April 2026 |
+| nvcf-dns-cache | DNS caching service | April 2026 |
+| nvcf-nvca | NVIDIA cluster agent - handles workload scheduling and deployment, and GPU resource lifecycle | April 2026 |
+| nvcf-invocation-service | Service that handles NVCF function invocations, routing requests to workers and managing response streaming via pull-based system using NATS | April 2026 |
+| nvcf-function-autoscaler | Autoscaling service that monitors function invocation and usage patterns and horizontally scales NVCF function instance counts across clusters | April 2026 |
 | nvcf-rate-limiter | Per-function rate-limiting service that throttles requests to a function | April 2026 |
 | nvcf-grpc-proxy | Stateful function invocation service used for bi-directional communication and state management | April 2026 |
 | nvcf-reval | Helm chart validation service that renders Helm charts with dynamic data | April 2026 |
