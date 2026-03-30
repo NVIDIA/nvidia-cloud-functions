@@ -1,6 +1,6 @@
 # NVIDIA Cloud Functions (NVCF)
 
-NVIDIA Cloud Functions (NVCF) is a platform for deploying, managing, and running GPU-accelerated functions at scale. It routes inference, streaming, and other GPU work to worker clusters, so you can scale demanding workloads with less infrastructure to run yourself.
+NVIDIA Cloud Functions (NVCF) is a platform for deploying, managing, and running GPU-accelerated workloads at scale. It routes inference, streaming, and other GPU work to worker clusters, so you can scale demanding workloads with less infrastructure to run yourself.
 
 Use this repository to:
 - Report bugs and request features across any NVCF component
@@ -15,16 +15,14 @@ A self-hosted NVCF deployment includes the core components needed for inference.
 
 ![architecture-diagram](architecture.png)
 
-## Why use NVCF?
+## NVCF Key Features
 
-NVCF turns fragmented GPU resources into a single, scalable API for AI inference and media processing.
-
-- Unified control plane: One place to manage and route requests across GPU clusters in multiple regions.
-- Task distribution: Load-balances inference, streaming, and custom workloads based on worker availability.
-- Protocols: REST, gRPC, and WebSockets, including low-latency streaming.
-- Autoscaling: Scale from a single machine to large multi-node clusters without changing application code.
-- Mixed hardware: Spread work across clusters with different GPUs to balance cost and performance.
-- Observability: Health checks and telemetry for worker status and request latency.
+- Unified control plane that manages and routes requests across multi-region GPU clusters
+- Load balancing inference, streaming, and custom workloads based on worker availability
+- Multiple protocols supported
+- Multi-cluster autoscaling
+- Mixed GPU types across clusters supported for workloads with different GPU requirements
+- Health checks and telemetry for worker status and request latency
 
 ## Repositories
 
