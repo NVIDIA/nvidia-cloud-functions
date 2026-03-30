@@ -1,37 +1,28 @@
 # NVIDIA Cloud Functions (NVCF)
 
-NVIDIA Cloud Functions (NVCF) is a platform for deploying, managing, and invoking GPU-accelerated functions at scale.
-
-NVCF provides a unified control plane that routes requests for inference, streaming, and GPU-accelerated tasks to worker clusters, enabling developers to deploy and scale high-performance workloads across heterogeneous environments with minimal infrastructure overhead.
+NVIDIA Cloud Functions (NVCF) is a platform for deploying, managing, and running GPU-accelerated workloads at scale. It routes inference, streaming, and other GPU work to worker clusters, so you can scale demanding workloads with less infrastructure to run yourself.
 
 Use this repository to:
 - Report bugs and request features across any NVCF component
 - Find links to component repositories
 - Get oriented as a new contributor
 
-See our local development guide [here](https://docs.nvidia.com/cloud-functions/current/latest/local-development.html#local-development).
+See our [local development guide](https://docs.nvidia.com/cloud-functions/current/latest/local-development.html#local-development).
 
 ## Architecture
 
-Self-hosted NVCF installation includes the core components required for NVCF inference. Additional optional components such as caching and low latency streaming support are also available.
+A self-hosted NVCF deployment includes the core components needed for inference. There are also optional components such as caching and low-latency streaming.
 
 ![architecture-diagram](architecture.png)
 
-## Why use NVCF?
+## NVCF Key Features
 
-NVCF turns fragmented GPU resources into a single, scalable API for AI inference and media processing.
-
-* Unified Control Plane: A single entrypoint to manage and route requests across geographically distributed GPU clusters.
-
-* Task Distribution: Automatically load-balances inference, streaming, and custom workloads based on worker availability.
-
-* Protocol Agnostic: Native support for high-throughput REST, gRPC, and low-latency WebSockets for real-time streaming.
-
-* Function Autoscaling: Seamlessly scale from a single developer workstation to massive multi-node clusters without changing your application code.
-
-* Heterogeneous Hardware Support: Target sparse capacity across clusters to optimize cost and performance.
-
-* Built-in Observability: Integrated health checks and telemetry to monitor worker status and request latency in real-time.
+- Unified control plane that manages and routes requests across multi-region GPU clusters
+- Load balancing inference, streaming, and custom workloads based on worker availability
+- Multiple protocols supported
+- Multi-cluster autoscaling
+- Mixed GPU types across clusters supported for workloads with different GPU requirements
+- Health checks and telemetry for worker status and request latency
 
 ## Repositories
 
@@ -58,7 +49,7 @@ NVCF turns fragmented GPU resources into a single, scalable API for AI inference
 
 ## Reporting Issues
 
-If you have found a bug or want to request a feature, please [open an issue](https://github.com/NVIDIA/nvidia-cloud-functions/issues/new/choose) in this repository. Use the appropriate template and include the component name in the title (e.g., `[nvcf-nvca-operator] Pod fails to start on arm64`).
+If you have found a bug or want to request a feature, please [open an issue](https://github.com/NVIDIA/nvidia-cloud-functions/issues/new/choose) in this repository. Use the appropriate template and include the component name in the title (e.g., `[nvcf-nvca] Pod fails to start on arm64`).
 
 If you are unsure which component is responsible, open the issue here and the team will triage it.
 
